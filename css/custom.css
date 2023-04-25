@@ -8,6 +8,10 @@ body {
     background-size: cover;
 }
 
+b {
+    font-size: 16pt;
+}
+
 @media screen and (min-width: 600px) {
     #features {
         background-image: url(../images/sky1M.jpg);
