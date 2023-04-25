@@ -1,0 +1,27 @@
+body {
+    background-color: #0dcaf0;
+}
+
+#features {
+    background-image: url(../images/sky1S.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 600px) {
+    #features {
+        background-image: url(../images/sky1M.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    #features {
+        background-image: url(../images/sky1L.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+    
+}
